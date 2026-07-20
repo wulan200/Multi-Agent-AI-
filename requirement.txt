@@ -1,17 +1,16 @@
-pip install \
-langchain \
-langchain-core \
-langchain-community \
-langchain-groq \
-langgraph \
-faiss-cpu \
-sentence-transformers \
-transformers \
-huggingface-hub \
-pypdf \
-python-dotenv \
-rapidfuzz \
-streamlit \
-pandas \
-numpy \
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+faiss-cpu
+sentence-transformers
+transformers
+huggingface-hub
+pypdf
+python-dotenv
+rapidfuzz
+pandas
+numpy
 scikit-learn
