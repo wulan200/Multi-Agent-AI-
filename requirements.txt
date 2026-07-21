@@ -1,6 +1,13 @@
 streamlit==1.49.0
+
 langchain-core>=0.3.75
+langchain-community>=0.3.27
+langchain-groq>=0.3.7
 langgraph==0.6.7
+
+faiss-cpu==1.9.0
+sentence-transformers
+
 pypdf==6.0.0
 python-dotenv==1.1.1
 rapidfuzz==3.14.1
