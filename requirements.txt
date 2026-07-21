@@ -1,12 +1,15 @@
 streamlit==1.49.0
 
-langchain-core>=0.3.75
-langchain-community>=0.3.27
-langchain-groq>=0.3.7
+langchain==0.3.27
+langchain-core==0.3.75
+langchain-community==0.3.27
+langchain-groq==0.3.7
 langgraph==0.6.7
 
-faiss-cpu==1.9.0
-sentence-transformers>=3.0.0
+faiss-cpu==1.14.3
+sentence-transformers==3.3.1
+transformers==4.46.3
+torch
 
 pypdf==6.0.0
 python-dotenv==1.1.1
