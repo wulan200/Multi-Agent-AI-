@@ -12,9 +12,11 @@ from langchain_core.prompts import ChatPromptTemplate
 # Load Environment
 # ==========================================
 
+import streamlit as st
+
 load_dotenv()
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
 
 # ==========================================
 # LLM
